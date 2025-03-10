@@ -1,0 +1,10 @@
+- why to use key while looping
+
+when you don't use keys, React might get confused and lose track of which items are which, leading to inefficient rendering and potential bugs.
+Keys helps React optimize re-rendering and improve performance by only updating what's necessary.
+key of Virtual DOM will be different for every item & it matches with it
+
+
+
+How it re-render things if some update happens 
+we're using state and when state changes the React will automatically render the things, here we're using keys to avoid re-rendering of same items
